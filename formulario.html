@@ -1,0 +1,83 @@
+<html>
+    <!--https://usuaris.tinet.cat/acl/html_web/manual/formularios/formularios_6.html -->
+
+<head>
+	<title>formularios- ejemplo 5</title>
+    <style type="text/css">
+    table{font-size:8pt;font-family:Verdana;} 
+    td{font-size:8pt;font-family:Verdana;}
+    </style>
+</head>
+
+<body background="Imagenes/Horario.jfif">
+<font size="1" face="verdana">
+<form action="http://www.htmlweb.net/manual/formularios/ejemplos/cgi-bin/mailto.cgi" method="post" enctype="application/x-www-form-urlencoded">
+<center>
+<table width="450" cellspacing="10" cellpadding="10" border="2">
+<th colspan="2" >Registre sus datos</th>
+<tr>
+    <td ><b> Nombres:</b></td>
+    <td ><input type="text"  maxlength="15" size="30" name="nombre"></td>
+</tr>
+<tr>
+    <td  width="180"><b>Apellidos:</b></td>
+    <td ><input type="text" maxlength="25" size="30" name="apellidos"></td>
+</tr>
+<tr>
+    <td  width="180"><b>C&oacute;digo Postal:</b></td>
+    <td ><input type="text" maxlength="5" size="4" name="direccion"></td>
+</tr>
+<tr>
+    <td  width="180"><b>Correo Electro&oacute;nico:</b></td>
+    <td ><input type="text" maxlength="25" size="30" name="Correo"></td>
+</tr>
+<tr>
+    <td  width="180"><b>Direccio&oacute;n</b></td>
+    <td ><input type="text" maxlength="35" size="30" name="direccion"></td>
+</tr>
+<tr>
+    <td  width="180"><b>Estado civil:</b></td>
+    <td >
+  <input type="Radio" name="genero" value="mujer" checked>Mujer
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Radio" name="genero" value="Hombre">Solter@
+</tr>
+<tr>
+    <td  width="180"><b>elige la ropa que mas utilizas:</b></td>
+    <td >
+    <input type="checkbox" name="Ropa" value="Ropa" checked>Bermuda 
+  &nbsp;&nbsp;<input type="checkbox" name="Ropa" value="Ropa">Conjunto
+  <br></br>
+  &nbsp;&nbsp;<input type="checkbox" name="Ropa" value="Ropa">Blusas largas (camisas)
+  <br></br>
+  &nbsp;&nbsp;<input type="checkbox" name="Ropa" value="Ropa">Blusas cortas (camisas)
+    </td>
+</tr>
+<tr>
+    <td  width="180"><b>Elige tu edad:</b></td>
+    <td >
+     <select style="width:100px;">
+  <option value="primero">10-14
+  <option value="segundo">15-20
+  <option value="tercero">20-25
+  </select>
+         </td>
+</tr>
+<tr>
+    <td  width="180" valign="top"><b>?Alg&uacute;n comentario?</b></td>
+    <td >
+    <textarea name="comentario" cols="20" rows="10">
+  </textarea>
+</td>
+</tr>
+<tr>
+    <td  width="180" align="right"><input type="submit" value="enviar"></b></td>
+    <td  align="left"><input type="reset" value="borrar"></td>
+</tr>
+</table>
+</center>   
+</form>
+</font>
+</body>
+
+
+</html>

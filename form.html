@@ -1,0 +1,75 @@
+<html>
+    <!--https://usuaris.tinet.cat/acl/html_web/manual/formularios/formularios_6.html -->
+
+<head>
+	<title>formularios- ejemplo 5</title>
+    <style type="text/css">
+    table{font-size:8pt;font-family:Verdana;} 
+    td{font-size:8pt;font-family:Verdana;}
+    </style>
+</head>
+
+<body background="imagen/gif/1.gif">
+<font size="1" face="verdana">
+<form action="http://www.htmlweb.net/manual/formularios/ejemplos/cgi-bin/mailto.cgi" method="post" enctype="application/x-www-form-urlencoded">
+<table width="450" cellspacing="2" cellpadding="2" border="0">
+<th colspan="2" bgcolor="Lime">Registre sus datos</th>
+<tr>
+    <td bgcolor="#FFFF00" width="180"><b>Nombres:</b></td>
+    <td bgcolor="#ccffff" width="260"><input type="text" maxlength="15" size="30" name="nombre"></td>
+</tr>
+<tr>
+    <td bgcolor="#FFFF00" width="180"><b>Apellidos:</b></td>
+    <td bgcolor="#ccffff""><input type="text" maxlength="25" size="30" name="apellidos"></td>
+</tr>
+<tr>
+    <td bgcolor="#FFFF00" width="180"><b>Direccio&oacute;n:</b></td>
+    <td bgcolor="#ccffff""><input type="text" maxlength="35" size="30" name="direccion"></td>
+</tr>
+<tr>
+    <td bgcolor="#FFFF00" width="180"><b>C&oacute;digo Postal:</b></td>
+    <td bgcolor="#ccffff""><input type="text" maxlength="5" size="4" name="direccion"></td>
+</tr>
+<tr>
+    <td bgcolor="#FFFF00" width="180"><b>Marca tu cantante fav.:</b></td>
+    <td bgcolor="#ccffff"">
+  <input type="Radio" name="cantante" value="Katy" checked>Katy perry
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Radio" name="cantante" value="Ariana">Ariana Grande
+</tr>
+<tr>
+    <td bgcolor="#FFFF00" width="180"><b>Marca tu m&uacute;sica favorita:</b></td>
+    <td bgcolor="#ccffff">
+    <input type="checkbox" name="musica" value="rock" checked>Rock
+  &nbsp;&nbsp;<input type="checkbox" name="musica" value="pop" checked>Pop
+  &nbsp;&nbsp;<input type="checkbox" name="musica" value="heavy">Heavy
+  &nbsp;&nbsp;<input type="checkbox" name="musica" value="tecno">Tecno
+    </td>
+</tr>
+<tr>
+    <td bgcolor="#FFFF00" width="180"><b>Elige tu edad:</b></td>
+    <td bgcolor="#ccffff">
+     <select style="width:100px;">
+  <option value="primero">10-14
+  <option value="segundo">15-20
+  <option value="tercero">20-25
+  </select>
+         </td>
+</tr>
+<tr>
+    <td bgcolor="#FFFF00" width="180" valign="top"><b>?Alg&uacute;n comentario?</b></td>
+    <td bgcolor="#ccffff">
+    <textarea name="comentario" cols="20" rows="10">
+  </textarea>
+</td>
+</tr>
+<tr>
+    <td bgcolor="Lime" width="180" align="right"><input type="submit" value="enviar"></b></td>
+    <td bgcolor="Lime" align="left"><input type="reset" value="borrar"></td>
+</tr>
+</table>   
+</form>
+</font>
+</body>
+
+
+</html>
